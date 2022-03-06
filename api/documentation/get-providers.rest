@@ -1,0 +1,12 @@
+### Configurações
+
+@localUrl = http://localhost:3000
+
+### providers API - GET
+
+GET {{localUrl}}/api/providers/
+#&categoryId={{categoryId}}
+content-type: application/json
+Cache-Control: no-cache
+
+###
